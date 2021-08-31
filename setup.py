@@ -153,7 +153,7 @@ setup(
     version=version,
     install_requires=[
         "pandas",
-        "numpy",
+        "numpy==1.19.5",
         "scipy",
         "scikit-image",
         "scikit-learn",
